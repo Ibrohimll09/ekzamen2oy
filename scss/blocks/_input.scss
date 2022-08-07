@@ -1,0 +1,125 @@
+.input {
+    
+    &__container {
+        display: flex;  
+        justify-content: space-between; 
+        align-items: center;
+        margin-bottom: 175px;
+    }
+    
+    &__heading {
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: -2.14286px;
+        color: #495567;
+        margin-bottom: 50px;
+    }
+    
+    &__item {
+        display: flex;
+        align-items: center;
+        background: #F2F5F9;   
+        margin-bottom: 15px; 
+        padding: 32px 40px;   
+        transition: all 0.5s ease;
+        
+        &:hover {
+            transform: scale(1.1);
+            background-color: #FFF4DF;
+        }
+    }
+    
+    &__item-heding {
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: -1.07143px;
+        color: #495567;
+        margin-right: 278px;
+        min-width: 465px;
+        width: 100%;
+    }
+    
+    &__text {
+        font-size: 15px;
+        line-height: 25px;
+        color: #495567;
+        max-width: 650px;
+        width: 100%;
+    }
+
+    .label-heading {
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -1.78571px;
+        color: #495567;
+        width: 350px;
+    }
+
+    &__margin {
+      margin-left: 350px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 800px) {
+    
+    .input {
+    
+        &__container {
+            flex-direction: column;
+        }
+        
+        &__heading {
+            font-size: 32px;
+            line-height: 32px;
+        }
+        
+        &__item {
+            max-width: 350px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+
+        }
+        
+        &__item-heding {
+            font-size: 18px;
+            line-height: 24px;
+            margin-right: 5px;
+            color: #495567;
+            max-width: 220px;
+            min-width: 0;
+        }
+        
+        &__text {
+            font-size: 15px;
+            line-height: 25px;
+            color: #4955678d;
+            max-width: 650px;
+            width: 100%;
+        }
+
+        &__img {
+            margin-bottom: 20px;
+        }
+
+    
+        .label-heading {
+            font-size: 24px;
+            line-height: 28px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        &__margin {
+          margin-left: 0px;
+        }
+        
+        
+    }
+    
+}
+
+
